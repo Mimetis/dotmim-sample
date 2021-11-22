@@ -47,10 +47,6 @@
 		"ASPNETCORE_Kestrel__Certificates__Default__Path": "/home/vscode/.aspnet/https/aspnetapp.pfx",
 		"ASPNETCORE_Kestrel__Certificates__Default__AllowInvalid" : "true",
 	},
-
-	// "mounts": [
-	// 	"source=${env:HOME}${env:USERPROFILE}/.aspnet/https,target=/home/vscode/.aspnet/https,type=bind"
-	// ],
 	// 3. Next, copy your certificate into the container:
 	//      1. Start the container
 	//      2. Drag ~/.aspnet/https/aspnetapp.pfx into the root of the file explorer
