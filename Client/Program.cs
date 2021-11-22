@@ -28,7 +28,7 @@ namespace Client
 
             var client = new HttpClient(handler) { Timeout = TimeSpan.FromMinutes(5) };
 
-            var proxyClientProvider = new WebClientOrchestrator("https://localhost:5001/api/Sync", client: client);
+            var proxyClientProvider = new WebClientOrchestrator("https://localhost:5051/api/Sync", client: client);
 
             var options = new SyncOptions
             {
